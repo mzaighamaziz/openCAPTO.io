@@ -1,0 +1,29 @@
+[04-Jan-2020 14:21:41 UTC] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home/t23j6a952cz6/public_html/dev/complete.php on line 3
+[04-Jan-2020 14:21:41 UTC] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/t23j6a952cz6/public_html/dev/complete.php on line 3
+[04-Jan-2020 14:21:41 UTC] PHP Notice:  Undefined index: email in /home/t23j6a952cz6/public_html/dev/complete.php on line 9
+[04-Jan-2020 14:21:41 UTC] PHP Notice:  Undefined index: id in /home/t23j6a952cz6/public_html/dev/complete.php on line 12
+[04-Jan-2020 14:21:41 UTC] PHP Notice:  Undefined variable: con in /home/t23j6a952cz6/public_html/dev/complete.php on line 16
+[04-Jan-2020 14:21:41 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/t23j6a952cz6/public_html/dev/complete.php on line 16
+[04-Jan-2020 14:21:41 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/t23j6a952cz6/public_html/dev/complete.php on line 18
+[04-Jan-2020 14:21:41 UTC] PHP Notice:  Undefined variable: con in /home/t23j6a952cz6/public_html/dev/complete.php on line 313
+[04-Jan-2020 14:21:41 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/t23j6a952cz6/public_html/dev/complete.php on line 313
+[04-Jan-2020 14:21:41 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/t23j6a952cz6/public_html/dev/complete.php on line 314
+[04-Jan-2020 14:21:41 UTC] PHP Notice:  Undefined variable: con in /home/t23j6a952cz6/public_html/dev/complete.php on line 376
+[04-Jan-2020 14:21:41 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/t23j6a952cz6/public_html/dev/complete.php on line 376
+[04-Jan-2020 14:21:41 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/t23j6a952cz6/public_html/dev/complete.php on line 377
+[04-Jan-2020 14:23:41 UTC] PHP Notice:  Undefined index: email in /home/t23j6a952cz6/public_html/dev/complete.php on line 4
+[04-Jan-2020 14:23:41 UTC] PHP Notice:  Undefined index: id in /home/t23j6a952cz6/public_html/dev/complete.php on line 7
+[04-Jan-2020 14:23:41 UTC] PHP Notice:  Undefined variable: con in /home/t23j6a952cz6/public_html/dev/complete.php on line 11
+[04-Jan-2020 14:23:41 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/t23j6a952cz6/public_html/dev/complete.php on line 11
+[04-Jan-2020 14:23:41 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/t23j6a952cz6/public_html/dev/complete.php on line 13
+[04-Jan-2020 14:23:41 UTC] PHP Notice:  Undefined variable: con in /home/t23j6a952cz6/public_html/dev/complete.php on line 308
+[04-Jan-2020 14:23:41 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/t23j6a952cz6/public_html/dev/complete.php on line 308
+[04-Jan-2020 14:23:41 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/t23j6a952cz6/public_html/dev/complete.php on line 309
+[04-Jan-2020 14:23:41 UTC] PHP Notice:  Undefined variable: con in /home/t23j6a952cz6/public_html/dev/complete.php on line 371
+[04-Jan-2020 14:23:41 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/t23j6a952cz6/public_html/dev/complete.php on line 371
+[04-Jan-2020 14:23:41 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/t23j6a952cz6/public_html/dev/complete.php on line 372
+[04-Jan-2020 14:29:53 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/t23j6a952cz6/public_html/dev/complete.php on line 224
+[04-Jan-2020 14:29:59 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/t23j6a952cz6/public_html/dev/complete.php on line 224
+[04-Jan-2020 14:30:14 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/t23j6a952cz6/public_html/dev/complete.php on line 224
+[04-Jan-2020 14:30:33 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/t23j6a952cz6/public_html/dev/complete.php on line 224
+[04-Jan-2020 14:30:35 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/t23j6a952cz6/public_html/dev/complete.php on line 224

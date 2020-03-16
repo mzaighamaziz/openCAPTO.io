@@ -1,0 +1,1049 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, a {
+    font-family: 'Raleway', sans-serif;
+}
+
+a:focus, a:hover {
+    outline: none;
+    text-decoration: none;
+}
+
+a {
+    transition: 0.4s ease all;
+    cursor: pointer;
+}
+
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus, button:focus {
+    outline: none;
+}
+
+.no_padding {
+    padding: 0;
+}
+
+.no_padding_left {
+    padding-left: 0;
+}
+
+.no_padding_right {
+    padding-right: 0;
+}
+
+.padding_right {
+    padding-right: 15px;
+}
+
+.padding_left {
+    padding-left: 15px;
+}
+
+.MyButton {
+    color: #fff;
+    background: #154a9a;
+    font-size: 13px;
+    font-weight: 800;
+    text-transform: uppercase;
+    width: 165px;
+    border-radius: 0;
+    border: none;
+    padding: 16px 14px;
+    margin-top: 15px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: 0.4s ease all !important;
+}
+
+.MyButton::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: #00a1e4;
+    transition: 0.4s ease all !important;
+    z-index: -1;
+}
+
+.MyButton:hover {
+    color: #fff;
+}
+
+.MyButton:hover::before {
+    width: 100%;
+}
+
+/* own library for padding */
+
+@media (max-width: 1200px) and (min-width: 992px) {
+    .md_no_padding {
+        padding: 0;
+    }
+    .md_no_padding_left {
+        padding-left: 0;
+    }
+    .md_no_padding_right {
+        padding-right: 0;
+    }
+    .md_padding_right {
+        padding-right: 15px;
+    }
+    .md_padding_left {
+        padding-left: 15px;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    .sm_no_padding {
+        padding: 0;
+    }
+    .sm_padding {
+        padding: 0 15px;
+    }
+    .sm_no_padding_left {
+        padding-left: 0;
+    }
+    .sm_no_padding_right {
+        padding-right: 0;
+    }
+    .sm_padding_right {
+        padding-right: 15px;
+    }
+    .sm_padding_left {
+        padding-left: 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    .xs_no_padding {
+        padding: 0;
+    }
+    .xs_padding {
+        padding: 0 15px;
+    }
+    .xs_no_padding_left {
+        padding-left: 0;
+    }
+    .xs_no_padding_right {
+        padding-right: 0;
+    }
+    .xs_padding_right {
+        padding-right: 15px;
+    }
+    .xs_padding_left {
+        padding-left: 15px;
+    }
+}
+
+/* login page design */
+
+#Login {
+    background: #f9f8f8;
+    position: relative;
+    overflow: hidden;
+    align-items: center!important;
+    height: 100vh;
+    display: flex;
+}
+
+#Login .container {
+    align-items: center!important;
+    display: flex;
+}
+
+.LoginLeftSide {
+    padding: 40px;
+    background: url(../../Images/LoginBG1.png);
+    background-size: cover;
+    background-position: right center;
+    color: #fff;
+}
+
+.LoginLeftSide h1 {
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 40px;
+}
+
+.LoginLeftSide h1 span {
+    font-weight: 600;
+}
+
+.LoginLeftSide p {
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 19px;
+    padding-right: 15%;
+}
+
+.LoginLeftSide .MyButton {
+    background: #fff;
+    color: #154a9a;
+}
+
+.LoginLeftSide .MyButton:hover {
+    color: #fff;
+}
+
+.card-header h3 {
+    display: inline-block;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    color: #6c6c6c;
+    font-size: 32px;
+}
+
+.card-header h3::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 60%;
+    height: 5px;
+    border-radius: 5px;
+    background: #154a9a;
+}
+
+.card-header h3::before {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 65%;
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    background: #154a9a;
+}
+
+.FormSection {
+    background: #fff;
+    padding: 7% 25px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.13);
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.13);
+}
+
+.RegisterationForm {
+    padding: 4% 25px;
+}
+
+.FormSection label {
+    color: #6c6c6c;
+    font-size: 14.5px;
+    margin-top: 0px;
+}
+
+.FormSection input {
+    background: #fff;
+    padding: 12px;
+    border: 2px solid #ebebeb;
+    height: 44px;
+    border-radius: 5px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    width: 100%;
+}
+
+.FormSection .toggle-password {
+    position: absolute;
+    bottom: 15px;
+    right: 30px;
+    color: #616161;
+    cursor: pointer;
+    transition: 0.4s ease all;
+}
+
+.FormSection .toggle-password:hover {
+    color: #154a9a;
+}
+
+.FormSection input[type=file]::after {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    width: 20px;
+    height: 40px;
+    background: #154a9a;
+}
+
+.FormSection textarea {
+    resize: none;
+    border: 2px solid #ebebeb;
+    border-radius: 5px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    width: 100%;
+}
+
+.FormSection .form-control:focus {
+    box-shadow: none;
+    border: 2px solid #00a1e466;
+}
+
+/* navbar settings */
+
+/* navbar starts here */
+
+.navbar-right {
+    position: relative;
+}
+
+.navbar-nav li a {
+    color: #101c2c;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 35px 0;
+    margin: 0 25px;
+    transition: 0.4s ease all;
+}
+
+.navbar-nav li a::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    background: #154a9a;
+    left: 0;
+    bottom: 25px;
+    transition: 0.4s ease all;
+}
+
+.navbar-nav li a:hover, .navbar-nav li a:focus {
+    color: #101c2c;
+    background: transparent;
+}
+
+.navbar-nav li a:hover::after, .navbar-nav li.active a::after {
+    width: 100%;
+}
+.navbar-nav li .dropdown-menu li{
+    position: relative;
+}
+.navbar-nav li .dropdown-menu li a {
+    padding: 8px 0;
+}
+
+.navbar-nav li .dropdown-menu li a::after {
+    bottom: 0px;
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: #eee0;
+    border-color: #a2a6a900;
+}
+.mynavbar {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    margin: 0;
+    border-bottom: 1px solid #e4e4e4;
+    top: 0;
+    border-radius: 0;
+    background:#fff;
+}
+
+
+.navbar-brand {
+    font-size: 30px;
+    font-weight: 600;
+    color: #154a9a;
+    padding-top: 36px;
+    padding: 0;
+    transition: 0.4s ease all;
+}
+
+.navbar-brand img {
+    width: 190px;
+}
+
+
+.mynavbar .navbar-toggle .icon-bar, .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    transition: 0.4s ease all;
+}
+
+.mynavbar .navbar-toggle[aria-expanded="true"] span:nth-child(2) {
+    -webkit-transform: rotate(-45deg) translate(-5px, 4px);
+    transform: rotate(-45deg) translate(-5px, 4px);
+}
+
+.mynavbar .navbar-toggle[aria-expanded="true"] span:nth-child(3) {
+    opacity: 0;
+}
+
+.mynavbar .navbar-toggle[aria-expanded="true"] span:nth-child(4) {
+    -webkit-transform: rotate(45deg) translate(-4px, -4px);
+    transform: rotate(45deg) translate(-4px, -4px);
+}
+
+.mynavbar .navbar-toogle span:nth-child(4) {
+    -webkit-transform: rotate(45deg) translate(-4px, -4px);
+    transform: rotate(45deg) translate(-4px, -4px);
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+}
+
+/* search field */
+
+.searchBar {
+    position: absolute;
+    z-index: 222;
+    right: 0;
+    top: 0;
+    display: block;
+    width: 48px;
+    height: 100%;
+    z-index: 0;
+    transition: 0.4s ease all;
+}
+
+.searchBar i {
+    color: #154a9a;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 31px;
+    transition: 0.4s ease all;
+    z-index: 22;
+    font-size: 24px;
+}
+
+#cancleSearch {
+    background: transparent;
+    border: none;
+    color: #154a9a;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 55;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 38px;
+}
+
+#SearchField {
+    width: 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    background-color: #154a9a;
+    background-repeat: no-repeat;
+    padding: 10px 0;
+    -webkit-transition: width 0.4s ease-in-out;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 15px;
+    z-index: -1;
+    transition: width 0.4s ease-in-out;
+}
+
+#SearchField:focus {
+    outline: none;
+}
+
+.SearchActive {
+    width: 100%;
+}
+
+.SearchActive i {
+    margin-left: 30px;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 38px;
+}
+
+.SearchActive input {
+    width: calc(100% - 77px) !important;
+    padding: 10px 20px 10px 40px !important;
+}
+
+input::placeholder {
+    color: #fff
+}
+
+/* profile card starts here */
+
+.ProfileImg {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #f7f7f7;
+    margin-top: 21px;
+    margin-right: 60px;
+    margin-left: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.ProfileImg::before {
+    content: "\f007";
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    font-size: 34px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #154a9a;
+}
+
+.ProfileCard {
+    background: #fff;
+    box-shadow: 0 0 11px #6e6e6e66;
+    padding-top: 15px;
+    position: absolute;
+    top: calc(100% + 19px);
+    z-index: -3;
+    width: 290px;
+    right: 60px;
+    display: inline-grid;
+    text-align: center;
+    transform: translateY(-50%);
+    transition: 0.4s ease all;
+    pointer-events: none;
+    opacity: 0;
+}
+
+.ProfileCard::after {
+    content: '';
+    position: absolute;
+    top: -10px;
+    right: 18px;
+    width: 20px;
+    height: 20px;
+    box-shadow: -6px -6px 6px 0 rgba(1, 1, 1, 0.08);
+    transform: rotate(45deg);
+    background: #fff;
+    z-index: -8;
+    display: inline-block;
+}
+
+.ProfileCard h1 {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.ProfileCard h2 {
+    font-size: 14px;
+    margin-top: 0;
+    color: #878787;
+}
+
+.CardDetails {
+    border-top: 1px solid #87878763;
+    color: #878787;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 15px;
+}
+
+.CardDetails i {
+    color: #154a9a;
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.logout {
+    padding: 15px 0 0 0;
+}
+
+.logout .MyButton {
+    padding: 16px 14px;
+    color: #fff;
+    margin: auto;
+    display: inline-block;
+    width:50%;
+}
+.logout .MyButton+.MyButton{
+    margin-left:-4px;
+    border-left:1px solid #fff;
+}
+
+.logout .MyButton:hover {
+    color: #fff;
+}
+
+.logout .MyButton::after {
+    bottom: 0;
+}
+
+.open>.ProfileCard {
+    transform: translateY(0);
+    z-index: 35;
+    pointer-events:all;
+    opacity: 1;
+}
+
+#Main {
+    margin-top: 125px;
+}
+
+thead {
+    background: #154a9a;
+    color: #fff;
+}
+
+tr:nth-of-type(even) {
+    background: #eee;
+}
+
+
+/* cell finder styles starts here */
+
+#TrackId .FormSection {
+    padding: 20px;
+}
+
+#TrackId .card-header h3 {
+    font-size: 22px;
+}
+
+.FormSection input[type='checkbox'] {
+    height: initial;
+    width: auto;
+}
+
+footer {
+    background: #E6EBF1;
+    text-align: center;
+}
+
+footer p {
+    padding: 15px 30px 15px 30px;
+    float: left;
+    width: 100%;
+    position: relative;
+    margin-bottom: 0px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #a4a6a8;
+    border-top: 1px solid #e8e8e8;
+}
+
+
+/* modle settings */
+
+.modal-backdrop {
+    background-color: #E6EBF1;
+}
+
+.modal-backdrop.in {
+    opacity: 1;
+}
+
+.modal-content {
+    padding: 90px 50px;
+    background-color: #E6EBF1;
+    -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.13);
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.13);
+    border: 0;
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    opacity: 0.5;
+    color: #154a9a;
+    margin: 0;
+    font-size: 25px;
+}
+
+.close:hover {
+    opacity: 1;
+    color: #154a9a;
+}
+
+/* stripe Payment styles  */
+
+.modal .MyButton {
+    width: 100%;
+    margin-top: 35px;
+    padding: 12px 14px;
+}
+#Search{
+        margin-top: 26px;
+    padding: 7px;
+    width: 100%;
+    border-radius: 50px;
+    border: 1px solid #4e4e4e;
+    text-indent:10px;
+}
+#Search::placeholder{
+    color:#ab9d9d;
+}
+
+/* home page styles */
+
+#MainBanner {
+       margin-top: 130px;
+    
+    
+    
+}
+
+#MainBanner h2 {
+    color: #154a9a;
+    line-height: 62px;
+    margin-top: 0;
+    font-size: 34px;
+    font-weight: 700;
+    padding-left: 50px;
+}
+
+#MainBanner h2+h2 {
+       margin-top: 85px;
+    font-size: 23px;
+    padding-right: 110px;
+    text-align: right;
+}
+
+#MainBanner h2 span {
+    color: #E21C21;
+    font-size: 40px;
+    display:block;
+    margin-left: -50px;
+}
+
+#MainBanner h2 span span {
+    font-size: 44px;
+    display:inline;
+    margin: 0;
+}
+
+/* services section starts here */
+
+#Services {
+    background: #E6EBF1;
+    padding: 100px 0;
+}
+
+#Services h2 {
+    color: #616161;
+    font-size: 16px;
+    letter-spacing: 0.6px;
+    line-height: 24px;
+    margin-top: 0;
+    font-weight: 500;
+}
+
+#Services h2 span {
+    font-weight: 800;
+}
+
+#Services p {
+    color: #616161;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    line-height: 24px;
+}
+
+.Circle {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    background: #154a9a;
+    border-radius: 50%;
+    color: #fff;
+    
+    margin: auto;
+    transform: translateX(-40px);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.Circle h1 {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.Circle span {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #154a9a;
+    left: calc(100% + 10px);
+    font-size: 20px;
+    font-weight: 700;
+    width: fit-content;
+}
+
+/* priciing tables section starts here */
+
+#Pricing {
+    margin-top: 90px;
+    padding: 100px;
+    background: #E6EBF1;
+}
+
+.PriceTable {
+    background: #fff;
+    border-radius: 5px;
+    padding: 15px 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.4s ease all;
+}
+
+.PriceTable:hover {
+    -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.13);
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.13);
+}
+
+.PriceTable::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background: #154a9a;
+    top: 0;
+    left: 0;
+}
+
+.PriceTable h1 {
+    font-size: 24px;
+    color: #6c6c6c;
+    text-transform: uppercase;
+}
+
+.PriceTable h2 {
+    font-size: 80px;
+    color: #154a9a;
+    margin: 0;
+}
+
+.PriceTable h2 sup {
+    font-size: 38px;
+}
+
+.PriceTable span {
+    font-size: 17px;
+    letter-spacing: 0.4px;
+    
+    margin-left: 18px;
+    text-transform: uppercase;
+}
+
+.PriceTable h3 {
+    font-size: 18px;
+    color: #6c6c6c;
+    letter-spacing: 0.8px;
+}
+
+.PriceTable p {
+    color: #878787;
+}
+
+.PriceTable .MyButton {
+    width: 100%;
+    border-radius: 0;
+}
+
+.PlanDetails {
+    padding: 15px 15px 0;
+    margin-top: 15px;
+}
+
+.PlanDetails ul {
+    list-style: none;
+    padding: 0 10px;
+    margin-top: 0;
+    color: #7d7d7d;
+}
+
+.PlanDetails ul li {
+    padding-left: 2.3em;
+}
+
+.PlanDetails ul li+li {
+    margin-top: 10px;
+}
+
+.PlanDetails li:before {
+    content: "\f0da";
+    font-family: FontAwesome;
+    display: inline-block;
+    color: #154a9a;
+    margin-left: -2.3em;
+    width: 2.3em;
+    font-size: 18px;
+}
+
+.MainHeading {
+    text-align: center;
+}
+
+.MainHeading h3 {
+    display: inline-block;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 90px;
+    text-transform: uppercase;
+    color: #4e4e4e;
+    font-size: 32px;
+}
+
+.MainHeading h3::before {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 82%;
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    background: #154a9a;
+}
+
+.MainHeading h3::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    right: 82%;
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    background: #154a9a;
+}
+
+.MainHeading h3 span {
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    width: 60%;
+    height: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    background: #154a9a;
+    transform: translateX(-50%);
+}
+/* Our Policy Css Starts */
+
+#ourPolicy{
+    margin-top: 60px;
+    padding: 100px 0;
+}
+
+
+
+
+
+/* Our Policy css Ends */
+
+/* Admin home  pagination css */
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+  border-radius: 5px;
+}
+
+    .navbar .navbar-toggle {
+    padding: 32px 10px;
+}
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #1e519e;
+        transition: 0.4s ease all;
+    }
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        background-color: #14499a;
+        margin-left: 15px;
+    }
+    .navbar-default .navbar-toggle:focus .icon-bar, .navbar-default .navbar-toggle:hover .icon-bar {
+        background-color: #fff;
+    }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border-color: transparent;
+    }
+    .navbar-default [aria-expanded="true"] span:nth-child(2) {
+        -webkit-transform: rotate(-45deg) translate(-5px, 4px);
+        transform: rotate(-45deg) translate(-5px, 4px);
+    }
+    .navbar-default [aria-expanded="true"] span:nth-child(3) {
+        opacity: 0;
+    }
+    .navbar-default [aria-expanded="true"] span:nth-child(4) {
+        -webkit-transform: rotate(45deg) translate(-4px, -4px);
+        transform: rotate(45deg) translate(-4px, -4px);
+    }
+    .mynavbar .navbar-toggle .icon-bar, .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background: #154a9a;
+}
+
+@media (max-width: 768px){
+    .navbar-nav li a {
+        padding: 10px 0;
+        text-align: left;
+    }
+    .SearchSection{
+        display: none;
+    }
+    .navbar-header .dropdown{
+       display: inline-block;
+       float: right;
+    }
+    .ProfileImg {
+     margin-right: 10px;
+    }
+    .ProfileCard {
+      right: 10px;
+    }
+    .navbar-nav li a:hover::after, .navbar-nav li.active a::after {
+        width: 100%;
+}
+    .navbar-nav li a::after {
+       bottom: 0;
+    }
+}
+
+@media (max-width: 400px){
+    .ProfileImg {
+     margin-right: 0px;
+    }
+    .ProfileCard {
+      right: 0px;
+    }
+}
+
+
+
+
